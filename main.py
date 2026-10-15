@@ -82,7 +82,11 @@ def ex2_2():
 
 #2.3
 def ex2_3():
+    a = int(input("Ingresa un número"))
+    b = int(input("Ingresa un número"))
 
+    if a + b > 10 and a * b > 50:
+        print("Estos sí")
 
 #2.6
 def esFechaValida(dia, mes):
